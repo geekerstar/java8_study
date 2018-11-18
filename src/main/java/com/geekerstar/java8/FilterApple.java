@@ -6,6 +6,7 @@ import java.util.List;
 
 public class FilterApple {
 
+    @FunctionalInterface
     public interface AppleFilter{
         boolean filter(Apple apple);
     }
@@ -71,16 +72,32 @@ public class FilterApple {
 //        List<Apple> redApples = findApple(list,"red");
 //        System.out.println(redApples);
 
-        List<Apple> result = findApple(list,new GreenAnd160WeightFilter());
-        System.out.println(result);
+//        List<Apple> result = findApple(list,new GreenAnd160WeightFilter());
+//        System.out.println(result);
+//
+//        List<Apple> yellowList = findApple(list, new AppleFilter() {
+//            @Override
+//            public boolean filter(Apple apple) {
+//                return "yellow".equals(apple.getColor());
+//            }
+//        });
+//        System.out.println(yellowList);
 
-        List<Apple> yellowList = findApple(list, new AppleFilter() {
+//        List<Apple> lambdaResult = findApple(list,(Apple apple) -> {
+//            return apple.getColor().equals("green");
+//        });
+//        System.out.println(lambdaResult);
+
+        new Thread(new Runnable() {
             @Override
-            public boolean filter(Apple apple) {
-                return "yellow".equals(apple.getColor());
+            public void run() {
+                System.out.println(Thread.currentThread().getName());
+
             }
-        });
-        System.out.println(yellowList);
+        }).start();
+
+        new Thread(() -> System.out.println(Thread.currentThread().getName())).start();
+
 
     }
 }
