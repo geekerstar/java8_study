@@ -1,6 +1,7 @@
 package com.geekerstar.java8;
 
 import java.util.*;
+import java.util.stream.Stream;
 
 import static java.util.Comparator.comparing;
 import static java.util.stream.Collectors.toList;
@@ -18,11 +19,36 @@ public class SimpleStream {
                 new Dish("pizza", true, 550, Dish.Type.OTHER),
                 new Dish("prawns", false, 300, Dish.Type.FISH),
                 new Dish("salmon", false, 450, Dish.Type.FISH));
+
+//        menu.stream().forEach(System.out::println);
+
+//        Stream<Dish> stream = menu.stream();
+//        stream.forEach(System.out::println);
+//        stream.forEach(System.out::println);
+        Stream<Dish> dishStream = Stream.of(new Dish("prawns", false, 300, Dish.Type.FISH),
+                new Dish("salmon", false, 450, Dish.Type.FISH));
+        dishStream.forEach(System.out::println);
+        System.out.println("================");
+
+
+        List<String> result = menu.stream().filter(d -> {
+            System.out.println("filtering->" + d.getName());
+            return d.getCalories() > 300;
+        })
+                .map(d -> {
+                    System.out.println("map->" + d.getName());
+                    return d.getName();
+
+                })
+                .limit(3).collect(toList());
+        System.out.println("=======================");
+        System.out.println(result);
+
 //        List<String> dishNameByCollections = getDishNamesByCollections(menu);
 //        System.out.println(dishNameByCollections);
 
-        List<String> dishNameByStreams = getDishNamesByStream(menu);
-        System.out.println(dishNameByStreams);
+//        List<String> dishNameByStreams = getDishNamesByStream(menu);
+//        System.out.println(dishNameByStreams);
 
     }
 
