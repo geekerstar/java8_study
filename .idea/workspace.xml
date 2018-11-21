@@ -38,14 +38,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="12" />
-          <entry key="java" value="8774" />
+          <entry key="java" value="8777" />
           <entry key="xml" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="12" />
-          <entry key="JAVA" value="8774" />
+          <entry key="JAVA" value="8777" />
           <entry key="XML" value="64" />
         </counts>
       </usages-collector>
@@ -53,33 +53,20 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="38" />
+          <entry key="java" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="Git file" value="1" />
-          <entry key="JAVA" value="38" />
+          <entry key="JAVA" value="39" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/geekerstar/java8/CollectorsAction2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-314">
-              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -130,6 +117,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/geekerstar/java8/CollectorIntroduce.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/geekerstar/java8/CollectorsAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/geekerstar/java8/CollectorsAction2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/geekerstar/java8/CollectorsAction3.java" />
       </list>
     </option>
   </component>
@@ -344,12 +332,12 @@
       <workItem from="1542591076984" duration="11331000" />
       <workItem from="1542626567960" duration="1000" />
       <workItem from="1542679067379" duration="6723000" />
-      <workItem from="1542761543659" duration="2026000" />
+      <workItem from="1542761543659" duration="2685000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32693000" />
+    <option name="totallyTimeSpent" value="33352000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -363,7 +351,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="941" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16178267" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16178267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="UI Designer" order="3" />
@@ -379,7 +367,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Statistic" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.498779" visible="true" weight="0.32744405" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.498779" visible="true" weight="0.32744405" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.501221" side_tool="true" weight="0.3274648" />
       <window_info anchor="bottom" id="JRebel Executor" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32979977" />
@@ -646,8 +634,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/geekerstar/java8/CollectorsAction2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-314">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        <state relative-caret-position="128">
+          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/geekerstar/java8/CollectorsAction3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="67" column="21" lean-forward="true" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
