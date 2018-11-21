@@ -53,46 +53,25 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="46" />
+          <entry key="java" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="Git file" value="1" />
-          <entry key="JAVA" value="46" />
+          <entry key="JAVA" value="47" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/geekerstar/java8/ForkJoinPoolTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/geekerstar/java8/AccumulatorRecursiveAction.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/geekerstar/java8/SpliteratorInAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-124">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/geekerstar/java8/AccumulatorRecursiveTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="501">
+              <caret line="80" column="9" lean-forward="true" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -156,6 +135,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/geekerstar/java8/ForkJoinPoolTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/geekerstar/java8/AccumulatorRecursiveTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/geekerstar/java8/AccumulatorRecursiveAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/geekerstar/java8/SpliteratorInAction.java" />
       </list>
     </option>
   </component>
@@ -273,7 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ForkJoinPoolTest">
+  <component name="RunManager" selected="Application.SpliteratorInAction">
     <configuration name="CustomerCollectorAction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.geekerstar.java8.CustomerCollectorAction" />
       <module name="java8_study" />
@@ -300,8 +280,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumericStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.geekerstar.java8.NumericStream" />
+    <configuration name="ParallelProcessing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekerstar.java8.ParallelProcessing" />
       <module name="java8_study" />
       <extension name="coverage">
         <pattern>
@@ -313,8 +293,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelProcessing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.geekerstar.java8.ParallelProcessing" />
+    <configuration name="SpliteratorInAction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekerstar.java8.SpliteratorInAction" />
       <module name="java8_study" />
       <extension name="coverage">
         <pattern>
@@ -340,19 +320,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NumericStream" />
       <item itemvalue="Application.StreamInAction" />
       <item itemvalue="Application.CustomerCollectorAction" />
       <item itemvalue="Application.ParallelProcessing" />
       <item itemvalue="Application.ForkJoinPoolTest" />
+      <item itemvalue="Application.SpliteratorInAction" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpliteratorInAction" />
         <item itemvalue="Application.ForkJoinPoolTest" />
         <item itemvalue="Application.ParallelProcessing" />
         <item itemvalue="Application.CustomerCollectorAction" />
         <item itemvalue="Application.StreamInAction" />
-        <item itemvalue="Application.NumericStream" />
       </list>
     </recent_temporary>
   </component>
@@ -370,12 +350,12 @@
       <workItem from="1542591076984" duration="11331000" />
       <workItem from="1542626567960" duration="1000" />
       <workItem from="1542679067379" duration="6723000" />
-      <workItem from="1542761543659" duration="6429000" />
+      <workItem from="1542761543659" duration="8002000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37096000" />
+    <option name="totallyTimeSpent" value="38669000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -388,7 +368,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="941" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16178267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -398,7 +377,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32744405" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32744405" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -406,7 +385,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Statistic" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4981685" weight="0.32744405" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4981685" visible="true" weight="0.32744405" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50183153" side_tool="true" weight="0.32744405" />
       <window_info anchor="bottom" id="JRebel Executor" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32979977" />
@@ -749,11 +728,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/geekerstar/java8/AccumulatorRecursiveAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-124">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/geekerstar/java8/SpliteratorInAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="80" column="9" lean-forward="true" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
         </state>
       </provider>
     </entry>
